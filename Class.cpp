@@ -13,6 +13,7 @@
  * 			Justin Reina. Do not distribute. Do not copy.
  */
 /************************************************************************************************************************************/
+#include <iostream>
 #include "Class.h"
 using namespace std;
 

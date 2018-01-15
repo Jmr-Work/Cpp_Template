@@ -1,3 +1,6 @@
+#ifndef _CLASS_H
+#define _CLASS_H
+
 #include <iostream>
 using namespace std;
 
@@ -16,3 +19,6 @@ class Rectangle {
     	return (width*height);
     }
 };
+
+#endif
+

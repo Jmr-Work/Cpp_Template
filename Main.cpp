@@ -18,8 +18,7 @@
  * 			Justin Reina. Do not distribute. Do not copy.
  */
 /************************************************************************************************************************************/
-#include <iostream>
-#include "Class.h"
+#include "globals.h"
 using namespace std;
 
 
@@ -29,11 +28,17 @@ using namespace std;
  *  @details	x
  */
 /************************************************************************************************************************************/
-int main () {
-  Rectangle rect, rectb;
-  rect.set_values (3,4);
-  rectb.set_values (5,6);
-  cout << "rect area: " << rect.area() << endl;
-  cout << "rectb area: " << rectb.area() << endl;
-  return 0;
+int main(void) {
+	Rectangle rect, rectb;
+
+	//Calc
+	rect.set_values (3,4);
+	rectb.set_values (5,6);
+
+	//Print
+	cout << "rect area:\t"  << rect.area()  << endl;
+	cout << "rectb area:\t" << rectb.area() << endl;
+  
+	return EXIT_SUCCESS;
 }
+
