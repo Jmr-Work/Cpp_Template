@@ -14,7 +14,7 @@
  * 			none current
  *
  * 	@section	Legal Disclaimer
- * 			All contents of this source file and/or any otherrelated source files are the explicit property of
+ * 			All contents of this source file and/or any other related source files are the explicit property of
  * 			Justin Reina. Do not distribute. Do not copy.
  */
 /************************************************************************************************************************************/
@@ -36,8 +36,8 @@ int main(void) {
 	rectb.set_values (5,6);
 
 	//Print
-	cout << "rect area:\t"  << rect.area()  << endl;
-	cout << "rectb area:\t" << rectb.area() << endl;
+	cout << "rect area-ish:\t" << rect.area()  << endl;
+	cout << "rectb area:\t"    << rectb.area() << endl;
   
 	return EXIT_SUCCESS;
 }
