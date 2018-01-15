@@ -12,13 +12,16 @@
 	Default Settings
 	
 3. Generate Merger
+	@note 	all are linked folders
 	E:\ref\CppTemplate
 		.git\
 		.gitignore
-		project\cdt 	(Eclipse Project)
-		project\vs		(Visual Studio Project)
+		project\cdt 	(Eclipse Build)
+		project\vs		(Visual Studio Build)
 		lib\ref\stdComments.h
 		doc\template generation procedure.txt
 		doc\sectioned text.txt
+		out\cdt 		(Eclipse Project)
+		out\vs			(Visual Studio Project)
 		main.cpp
 		globals.h
