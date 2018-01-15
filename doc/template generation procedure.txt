@@ -1,0 +1,24 @@
+1. Eclipse Example Project Generation
+	File->New->C++ Project
+	name: 'CppTemplate'
+	loc: default
+	type: Hello World C++ Project
+	tool: MinGW GCC
+	Settings: all blank except greeting string
+	
+2. Visual Studio Example Project Generation
+	File->New->Project
+	Templates->Visual C++->Win32 Console Application
+	Default Settings
+	
+3. Generate Merger
+	E:\ref\CppTemplate
+		.git\
+		.gitignore
+		project\cdt 	(Eclipse Project)
+		project\vs		(Visual Studio Project)
+		lib\ref\stdComments.h
+		doc\template generation procedure.txt
+		doc\sectioned text.txt
+		main.cpp
+		globals.h
