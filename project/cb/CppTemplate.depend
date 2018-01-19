@@ -1,15 +1,16 @@
 # depslib dependency file v1.0
-1516381932 source:d:\documents\work\workbyday\18_01_19\cpp_template\class.cpp
+1516388678 source:d:\documents\work\workbyday\18_01_19\cpp_template\class.cpp
 	<iostream>
 	"Class.h"
 
-1516381932 d:\documents\work\workbyday\18_01_19\cpp_template\class.h
+1516388803 d:\documents\work\workbyday\18_01_19\cpp_template\class.h
 	<iostream>
 
-1516382351 source:d:\documents\work\workbyday\18_01_19\cpp_template\main.cpp
-	"globals.h"
+1516388574 source:d:\documents\work\workbyday\18_01_19\cpp_template\main.cpp
+	"Globals.h"
 
-1516381932 d:\documents\work\workbyday\18_01_19\cpp_template\globals.h
+1516387926 d:\documents\work\workbyday\18_01_19\cpp_template\globals.h
+	<stdbool.h>
 	<iostream>
 	"Class.h"
 

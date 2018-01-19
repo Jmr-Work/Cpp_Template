@@ -12,12 +12,28 @@ using namespace std;
  */
 /************************************************************************************************************************************/
 class Rectangle {
-    int width, height;
-  public:
-    void set_values (int,int);
-    int area () {
+public:
+    void set_values(int,int);                                               /* member function declaration                          */
+    int area(void) {                                                        /* member function definition (in declaration)          */
     	return (width*height);
     }
+
+    Rectangle();															/* default constructor declaration						*/
+    Rectangle(int w, int h) {												/* custom constructor definition (in declaration)		*/
+
+    cout << "Rectangle():\t\t initialization begin." << endl;
+
+    //Init state
+    width  = w;
+    height = h;
+
+    cout << "Rectangle():\t\t initialization complete." << endl;
+
+    return;
+}
+
+private:
+    int width, height;                                                      /* private variable declaration                      	*/
 };
 
 #endif
