@@ -5,7 +5,7 @@
  *
  *  @author     Justin Reina, Firmware Engineer, Misc. Company
  *  @created    1/15/18
- *  @last rev   1/15/18
+ *  @last rev   1/19/18
  *
  *
  * 	@notes		x
@@ -38,7 +38,7 @@ int main(void) {
 	//Print
 	cout << "rect area-ish:\t" << rect.area()  << endl;
 	cout << "rectb area:\t"    << rectb.area() << endl;
-  
+
 	return EXIT_SUCCESS;
 }
 
