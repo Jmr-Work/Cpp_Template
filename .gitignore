@@ -1,6 +1,8 @@
 out/cdt
 out/vs
 out/cb
+out/nb
 project/cdt/Debug
 project/vs/Debug
 project/cb/Debug
+project/nb/build/Debug
